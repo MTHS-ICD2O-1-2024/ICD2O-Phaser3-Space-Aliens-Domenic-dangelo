@@ -9,6 +9,9 @@
 /**
  * Start phaser Game.
  */
+
+'use strict'
+
 const config = {
   type: Phaser.AUTO,
   width: 1920,
@@ -19,11 +22,9 @@ const config = {
       debug: true
     }
   },
-  // set background color
   backgroundColor: 0x5f6e7a,
   scale: {
     mode: Phaser.Scale.FIT,
-    // we place it in the middle of the page
     autoCenter: Phaser.Scale.CENTER_BOTH
   }
 }
