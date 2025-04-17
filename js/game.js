@@ -1,4 +1,4 @@
-/* global phaser */
+/* global Phaser */
 
 // Copyright (c) 2025 domenic dangelo All rights reserved
 //
