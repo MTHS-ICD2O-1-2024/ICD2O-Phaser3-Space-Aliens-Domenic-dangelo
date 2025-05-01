@@ -55,7 +55,6 @@ class MenuScene extends Phaser.Scene {
     this.startButton.on('pointerdown', () => this.clickButton())
   }
 
-
   /**
    * Should be overridden by your own Scenes.
    * This method is called once per game step while the scene is running.
@@ -66,7 +65,7 @@ class MenuScene extends Phaser.Scene {
     // pass
   }
 
-  clickButton() {
+  clickButton () {
     this.scene.start('gameScene')
   }
 }
